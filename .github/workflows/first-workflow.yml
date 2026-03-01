@@ -12,3 +12,6 @@ jobs:
     steps:
       - name: Print Hello
         run: echo "Hello! My GitHub Action is working!"
+
+      - name: Show environment variables
+        run: env
